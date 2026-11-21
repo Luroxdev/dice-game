@@ -106,10 +106,11 @@ public class MainActivity extends AppCompatActivity {
 
                         if(uretilenZar1 > uretilenZar2){
                             txt.setText("Oyuncu Kazandı.");
-                            zarAt.setEnabled(false);
                         } else if (uretilenZar1 < uretilenZar2) {
                             txt.setText("Bilgisayar Kazandı.");
 
+                        } else{
+                            txt.setText("Berabere");
                         }
                     }
                 }.start();
